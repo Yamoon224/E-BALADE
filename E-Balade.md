@@ -1,0 +1,10 @@
+E-Balade
+    - categories(name[hotels, villa, apartment, guest house, lodge])
+    - hotels(name:string, category:int, rate:[1-5], address:string, description:text, pool:bool, gym:bool, free_parking:bool, rooms:int, capacity:int/person)
+    - faqs(question, hotel_id)
+    - services(name, room_id)
+    - rates(note, created_at)
+    - comments(message)
+    - galleries(image, room_id)
+    - rooms(category, bed, room_id, dimensions, price, hotel_id)
+    - booking(name, phone, email, card_id, duration:int/day, room_id, paid, method, discount, guests, created_at)
